@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/shadow_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_fragment_flea_userIcon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/item_fragment_flea_userIcon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_fragment_flea_tv_userName"
+                style="@style/tv_16"
+                android:text="mouxuefei"
+                android:textColor="#333333"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/item_fragment_flea_tv_user_time"
+                style="@style/tv_14"
+                android:layout_marginTop="10dp"
+                android:text="我的csdn地址:https://blog.csdn.net/villa_mou"
+                android:textColor="#848484"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item_fragment_flea_ll_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_fragment_flea_iv_pictureOne"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/item_fragment_flea_iv_pictureTwo"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/item_fragment_flea_iv_pictureThree"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_fragment_flea_tv_desc"
+        style="@style/tv_16"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="学习一下AppBarLayout和协调布局"
+        android:textColor="#333"
+        />
+
+    <TextView
+        android:id="@+id/item_fragment_flea_tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="sichuan chengdu"
+        android:textColor="#848484"
+        android:textSize="14sp"/>
+</LinearLayout>
+
