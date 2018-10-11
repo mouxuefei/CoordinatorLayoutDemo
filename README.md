@@ -32,7 +32,7 @@ Behavior是一系列回调。让你有机会以非侵入的为View添加动态�
 效果1:toolbar随子view的滚动显示和隐藏
 如下图:
 
-![这里写图片描述](./image/aa.gif)
+![这里写图片描述](./image/ee.gif)
 
 效果2:结合CollapsingToolbarLayout缩放图片和toolBar
 
