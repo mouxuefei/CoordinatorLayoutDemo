@@ -1,4 +1,4 @@
-package com.exmple.slidingdemo
+package com.exmple.slidingdemo.fourway
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager

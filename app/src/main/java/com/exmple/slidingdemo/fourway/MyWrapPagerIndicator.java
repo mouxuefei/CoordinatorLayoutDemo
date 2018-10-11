@@ -1,4 +1,4 @@
-package com.exmple.slidingdemo;
+package com.exmple.slidingdemo.fourway;
 
 import android.content.Context;
 import android.graphics.Canvas;

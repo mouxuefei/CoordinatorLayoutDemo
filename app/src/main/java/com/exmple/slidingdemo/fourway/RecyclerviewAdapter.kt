@@ -1,4 +1,4 @@
-package com.exmple.slidingdemo
+package com.exmple.slidingdemo.fourway
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.exmple.slidingdemo.R
 
 class RecyclerviewAdapter(private val context: Context, private val data: List<String>) : RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>() {
 

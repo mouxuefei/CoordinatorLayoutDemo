@@ -1,4 +1,4 @@
-package com.exmple.slidingdemo
+package com.exmple.slidingdemo.fourway
 
 import android.content.Context
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.exmple.slidingdemo.R
 import kotlinx.android.synthetic.main.test_fragment.*
 
 /**
